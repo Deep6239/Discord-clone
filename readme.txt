@@ -8,6 +8,7 @@ UI = shadcn-ui
         tooltip
         separator
         scroll-area
+        avatar
 
 Clerk for authentication
 
@@ -29,3 +30,5 @@ npm i uuid
 npm i -D @types/uuid
 
 npm i zustand
+
+npm i query-string

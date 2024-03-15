@@ -36,20 +36,26 @@ export const ServerHeader = ({
                     <DropdownMenuItem 
                         onClick={() => onOpen("invite", { server })}
                         className="text-indigo-600 dark:hover:text-indigo-400 px-3 py-2 text-sm cursor-pointer">
-                        Invite People 
-                        <UserPlus className="h-4 w-4 ml-auto"/>
+                            Invite People 
+                            <UserPlus className="h-4 w-4 ml-auto"/>
                     </DropdownMenuItem>
                 )}
                 {isAdmin && (
-                    <DropdownMenuItem className="px-3 py-2 text-sm cursor-pointer">
-                        Server Settings 
-                        <Settings className="h-4 w-4 ml-auto" />
+                    <DropdownMenuItem 
+                        onClick={()=> onOpen('editServer', { server })}    
+                        className="px-3 py-2 text-sm cursor-pointer"
+                    >
+                            Server Settings 
+                            <Settings className="h-4 w-4 ml-auto" />
                     </DropdownMenuItem>
                 )}
                 {isAdmin && (
-                    <DropdownMenuItem className="px-3 py-2 text-sm cursor-pointer">
-                        Manage Members 
-                        <Users className="h-4 w-4 ml-auto" />
+                    <DropdownMenuItem 
+                        onClick={() => onOpen('members', { server })}
+                        className="px-3 py-2 text-sm cursor-pointer"
+                    >
+                            Manage Members 
+                            <Users className="h-4 w-4 ml-auto" />
                     </DropdownMenuItem>
                 )}
                 {isModerator && (
