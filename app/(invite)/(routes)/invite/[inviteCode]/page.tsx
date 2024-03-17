@@ -6,7 +6,7 @@ import { db } from "@/lib/db"
 
 interface InviteCodePageProps {
     params: {
-        return inviteCode: string
+        inviteCode: string
     }
 }
 
@@ -16,7 +16,7 @@ const InviteCodePage = async ({
     const profile = await currentProfile()
     
     if(!profile){
-        redirectToSignIn()
+        return redirectToSignIn()
     }
 
     if(!params.inviteCode){
