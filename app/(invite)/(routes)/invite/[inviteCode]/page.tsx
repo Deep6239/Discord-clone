@@ -6,7 +6,7 @@ import { db } from "@/lib/db"
 
 interface InviteCodePageProps {
     params: {
-        inviteCode: string
+        return inviteCode: string
     }
 }
 
