@@ -9,6 +9,7 @@ UI = shadcn-ui
         separator
         scroll-area
         avatar
+        select
 
 Clerk for authentication
 
