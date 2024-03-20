@@ -48,7 +48,7 @@ export const DeleteServerModal = () => {
                         Delete server
                     </DialogTitle>
                     <DialogDescription className='text-center text-zinc-500'>
-                        Are you sure you want to this? <br />
+                        Are you sure you want do this? <br />
                         <span className='text-indigo-500 font-semibold'>{server?.name}</span> will be permanently deleted 
                     </DialogDescription>
                 </DialogHeader>

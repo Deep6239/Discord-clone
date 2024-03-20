@@ -10,6 +10,7 @@ UI = shadcn-ui
         scroll-area
         avatar
         select
+        command
 
 Clerk for authentication
 
