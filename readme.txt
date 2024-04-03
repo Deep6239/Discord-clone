@@ -11,6 +11,7 @@ UI = shadcn-ui
         avatar
         select
         command
+        sheet
 
 Clerk for authentication
 
