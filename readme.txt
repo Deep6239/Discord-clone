@@ -12,6 +12,7 @@ UI = shadcn-ui
         select
         command
         sheet
+        badge
 
 Clerk for authentication
 
@@ -35,3 +36,6 @@ npm i -D @types/uuid
 npm i zustand
 
 npm i query-string
+
+npm i socket.io
+npm i socket.io-client
