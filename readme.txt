@@ -13,6 +13,7 @@ UI = shadcn-ui
         command
         sheet
         badge
+        popover
 
 Clerk for authentication
 
@@ -39,3 +40,5 @@ npm i query-string
 
 npm i socket.io
 npm i socket.io-client
+
+npm i emoji-mart @emoji-mart/data @emoji-mart/react
