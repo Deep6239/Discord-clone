@@ -36,7 +36,8 @@ export const useChatQuery = ({
         fetchNextPage,
         hasNextPage,
         isFetchingNextPage,
-        status
+        status,
+        isLoading
     } = useInfiniteQuery({
         queryKey: [queryKey],
         queryFn: fetchMessages,
@@ -50,5 +51,6 @@ export const useChatQuery = ({
         hasNextPage,
         isFetchingNextPage, 
         status,
+        isLoading
     }
 }
