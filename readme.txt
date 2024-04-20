@@ -44,3 +44,5 @@ npm i socket.io-client
 npm i emoji-mart @emoji-mart/data @emoji-mart/react
 
 npm i @tanstack/react-query
+
+npm i date-fns
