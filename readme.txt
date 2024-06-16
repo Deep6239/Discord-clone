@@ -46,3 +46,7 @@ npm i emoji-mart @emoji-mart/data @emoji-mart/react
 npm i @tanstack/react-query
 
 npm i date-fns
+
+LiveKit: for video and audio
+        npm install livekit-server-sdk @livekit/components-react @livekit/components-styles --save
+        
